@@ -114,3 +114,8 @@
     position: relative;
     z-index: 2;
 }
+
+.card-img-top
+{
+    object-fit: contain;
+}
