@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Home Decor</title>
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+      <style>
+        body {
+          background-color: #B3EBF2;
+          margin: 0;
+          padding: 0;
+        }
+        .gallery {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 16px;
+          padding: 16px;
+        }
+        .gallery img {
+          width: 100%;
+          height: auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+          transform: scale(1.05);
+          box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+        .image-caption { 
+          text-align: center;
+          font-size: 1rem;
+          margin-top: 8px;
+        }
+      </style>
+    </head>
+
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <div class="container-fluid" id="landing-bg">
+            <!-- navbar -->
+            <nav class="navbar sticky-top navbar-expand-md bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">
+                    <img src="../res/logolong.png" width="168" height="40">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse navbar-expand-xxl justify-content-between" id="navbarSupportedContent">
+                    <form class="d-flex width-250px" role="search">
+                    </form>
+                    <ul class="navbar-nav me-lg-0 mb-0">
+                      <div class="list-group list-group-horizontal">
+                        <li class="nav-item mx-3">
+                          <a class="nav-link active" aria-current="page" href="index.html#scrollspy-about">About</a>
+                        </li>
+                        <li class="nav-item dropdown mx-3">
+                          <a class="nav-link text-black dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="art.html">Art</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="homeDecor.html">Home Decor</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item mx-3">
+                          <a class="nav-link active" aria-current="page" href="index.html#scrollspy-contact">Buy</a>
+                        </li>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+
+            <!-- landing page -->
+            <div>
+                <h1 class = "text-navy" style="text-align: center; margin: 16px 0;">Home Decor Gallery</h1>
+                <div class="gallery">
+                  <div>
+                    <img src="/res/img18.jpeg" alt="Botanical Garden">
+                    <p class="image-caption">Ercol Windsor 203 Refurbished Three Piece Suite</p>
+                  </div>
+                  <div>
+                    <img src="/res/img19.jpeg" alt="Do Not Stand By My Grave And Weep">
+                    <p class="image-caption">1950's/60's Art School Trestle Easel</p>
+                  </div>
+                  <div>
+                    <img src="/res/img20.jpeg" alt="Bee Happy Series - 2">
+                    <p class="image-caption">Vintage Hand Carved Table With Entwined Legs</p>
+                  </div>
+                  <div>
+                    <img src="/res/img21.jpeg" alt="Moody Cows">
+                    <p class="image-caption">San Miguel Ceramic Beer Pump</p>
+                  </div>
+                </div>
+            </div>
+    </body>
+
+</html>
