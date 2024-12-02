@@ -1,6 +1,14 @@
-section {
-    padding-top: 70px; /* Match navbar height */
+/* Add padding to body to ensure navbar doesn't overlap */
+body {
+    padding-top: 70px; /* Adjust to navbar height */
+    margin: 0;
 }
+
+/* Optional: If specific sections need additional spacing */
+section {
+    padding: 50px 15px; /* Adjust for readability */
+}
+
 .carousel-item {
     min-height: 600px; /* Set minimum height for carousel items */
 }
