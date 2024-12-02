@@ -1,3 +1,21 @@
+.carousel-item {
+    min-height: 600px; /* Set minimum height for carousel items */
+}
+
+.card-body {
+    min-height: 100px; /* Ensure card text stays in place */
+}
+
+.carousel-caption {
+    min-height: 80px; /* Consistent height for captions */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 #landing-bg
 {
     background-size: cover;
@@ -113,9 +131,4 @@
     color: black;
     position: relative;
     z-index: 2;
-}
-
-.card-img-top
-{
-    object-fit: contain;
 }
