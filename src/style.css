@@ -1,7 +1,6 @@
-
-/* Optional: If specific sections need additional spacing */
 section {
-    padding-top: 70px; /* Adjust for navbar height */
+    padding-top: 70px; /* Match navbar height */
+    margin-top: -70px; /* Counteract navbar overlap */
 }
 
 .carousel-item {
