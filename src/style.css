@@ -1,9 +1,6 @@
-section:first-of-type {
-    padding-top: 70px; /* Match the navbar height */
-}
 
 body {
-    padding-top: 70px; /* Adjust this value to match the navbar height */
+    padding-top: 100px; /* Adjust this value to match the navbar height */
 }
 
 .carousel-item {
