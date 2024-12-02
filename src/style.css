@@ -21,6 +21,7 @@ body, html {
 {
     background-size: cover;
     background-position: center;
+    margin-top: 100px;
     padding: 0px;
     height: 100vh;
 }
