@@ -1,4 +1,4 @@
-section {
+.lg {
     padding-top: 1000px; /* Match navbar height */
     margin-top: 0px; /* Counteract navbar overlap */
 }
