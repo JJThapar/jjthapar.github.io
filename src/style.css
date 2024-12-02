@@ -1,3 +1,7 @@
+body {
+    padding-top: 70px; /* Adjust this value to match the navbar height */
+}
+
 .carousel-item {
     min-height: 600px; /* Set minimum height for carousel items */
 }
