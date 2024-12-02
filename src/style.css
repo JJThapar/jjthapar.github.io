@@ -1,6 +1,6 @@
 section {
-    padding-top: 70px; /* Match navbar height */
-    margin-top: -70px; /* Counteract navbar overlap */
+    padding-top: 0px; /* Match navbar height */
+    margin-top: 0px; /* Counteract navbar overlap */
 }
 
 .carousel-item {
