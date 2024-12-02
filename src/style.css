@@ -1,6 +1,7 @@
 
 body {
     padding-top: 1000px; /* Adjust this value to match the navbar height */
+    height: 100vh
 }
 
 .carousel-item {
